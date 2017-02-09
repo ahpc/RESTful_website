@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Welcome!</title>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</header>
+<body>
+
+	<div name="upload-image-file">
+	 
+		<p>Upload an image file:</p>
+		<form method='post' action='/imageDB' enctype='multipart/form-data'>
+		Name <input type='text' name='name'/>
+		<input type='file' name='image'/>
+		<input type='submit'/>
+		</form>
+
+	</div>
+	<a href="/image">Images</a>
+
+</body>
+</html>

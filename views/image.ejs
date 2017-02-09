@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Show image!</title>
+<link rel="stylesheet" type="text/css" href="/css/response_style.css">
+</header>
+<body>
+	<h3>Say: <%= title %></h3>
+	<% jsondata.forEach(function(item){ %>
+	<P>Name: <%= item.name %></P>
+	<P>Image:</P>
+	<div class="imageDiv">
+		<img src="<%= item.age %>" alt="<%= item.name %>">
+	</div>
+	<% }) %>
+</body>
+</html>
